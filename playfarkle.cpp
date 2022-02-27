@@ -3,21 +3,13 @@
 //
 // (c)2022 Mark J Stock <markjstock@gmail.com>
 //
-// A program to generate strategies for the Farkle dice game
+// A program to evaluate strategies for the Farkle dice game
 //
 
 #include <iostream>
 #include <array>
 #include <algorithm>
 #include <random>
-
-struct Strategy {
-  int stopRolling;
-  bool holdOnes;
-  bool holdFives;
-  int ptThreshold[5];
-};
-
 
 int main() {
 
